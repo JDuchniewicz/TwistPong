@@ -131,7 +131,7 @@ void GameStateAI::draw()
 	this->game->window.draw(ball->circle.shape, states);
 }
 
-void GameStateAI::update()
+void GameStateAI::update() //not opening media :///
 {
 	if(started)
 	{
